@@ -1,0 +1,32 @@
+body{
+    display: flow-root;
+}
+
+.box{
+    border: 5px dotted;
+    padding: 25px;
+    font-size: 5em;
+    width: 250 px;
+    height: 250 px;
+}
+
+#box1{
+    background-color: red;
+    margin-bottom: 50px;
+    margin: auto;
+}
+
+#box2{
+    margin: 100px;
+}
+
+#img1{
+    float: right;
+    margin-right: 20px;
+}
+
+div{
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: #545454;
+    font-family: verdana, arial;
+}
+h1{
+    color: tomato;
+    border-style: double;
+    border-width: 2em;
+    border-color: hsla(281, 54%, 39%, 0.616);
+    border-radius: 100px
+}
+p{
+    color: rgb(102,222,255);
+    border-bottom: 3px solid red;
+    border-top: 3px dotted blue;
+    text-shadow: 5px 1px;
+}
+#p1{
+    color:hsla(281, 64%, 45%, 0.616);
+}
+#p2{
+    color:blue;
+}
+.even{
+    font-size:1em;
+    font-weight: bold;
+
+}
