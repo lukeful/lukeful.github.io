@@ -1,0 +1,40 @@
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+#navbar li{
+    display: inline-block;
+    margin: 30px 15px;
+    font-size: 1.5em;
+}
+
+#navbar li:hover a{
+    color: rgb(254, 38, 117);
+}
+
+#navbar ul{
+    list-style-type: none;
+}
+
+#navbar{
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+#background-hd {
+    height: 88.5px;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(153, 0, 0,0.7);
+    z-index: 1000;
+}
+
+
+
+
+

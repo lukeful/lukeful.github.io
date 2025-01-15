@@ -1,0 +1,50 @@
+footer{
+    background-color: rgba(17, 17, 17, 0.75);
+}
+
+#icons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#icons li a{
+    text-decoration: none;
+}
+
+#icons #linkedin:hover{
+    transform: translateY(-10px);
+}
+
+#icons #github:hover{
+    transform: translateY(-10px);
+}
+
+#icons ul{
+    list-style-type: none;
+}
+
+#icons li {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#linkedin{
+    height: 32px;
+    width: 32px;
+    transition: all 0.3s;
+}
+
+#github{
+    height: 32px;
+    width: 32px;
+    transition: all 0.3s;
+}
