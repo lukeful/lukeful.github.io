@@ -12,7 +12,7 @@
 }
 
 #navbar li:hover a{
-    color: rgb(254, 38, 117);
+    color: rgb(1, 49, 148);
 }
 
 #navbar ul{
@@ -30,7 +30,7 @@
     height: 88.5px;
     width: 100%;
     position: fixed;
-    background-color: rgb(153, 0, 0,0.7);
+    background-color: rgb(153, 0, 0,0.87);
     z-index: 1000;
 }
 
