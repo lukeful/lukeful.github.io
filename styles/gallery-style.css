@@ -129,3 +129,22 @@ a{
 #nature-album{
     background-image: url(../images/lines.jpeg);
 }
+
+#main-greeting h1 {
+    background: linear-gradient(90deg, blue, purple,blue);
+    background-size: 300% 100%; 
+    color: transparent;
+    -webkit-background-clip: text; 
+    background-clip: text;
+    animation: gradient-shift 4s linear infinite;
+}
+
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
