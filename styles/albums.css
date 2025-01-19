@@ -1,0 +1,68 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-family: 'Roboto';
+}
+
+#body-container{
+    width: 100%;
+}
+
+#grid-gallery{
+    width: 86%;
+    display: grid;
+    margin: 0% 7% 0% 7%;
+    padding-top: 127px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-bottom: 27px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 2%;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* First row pattern (2 images) */
+.img:nth-child(5n+1) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.img:nth-child(5n+2) {
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+/* Second row pattern (3 images) */
+.img:nth-child(5n+3) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.img:nth-child(5n+4) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.img:nth-child(5n+5) {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
