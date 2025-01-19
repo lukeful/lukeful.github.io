@@ -1,0 +1,21 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+html, body{
+    font-family: 'Roboto';
+}
+
+#project-container{
+    width: 100%;
+    padding-top: 127px;
+}
