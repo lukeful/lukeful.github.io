@@ -19,6 +19,8 @@
 
 <body>
 
+<div id="background"></div>   
+
 <div id="background-hd">
     <div id="navbar">
         <ul>
@@ -35,52 +37,148 @@
     </div>
 </div> 
 
-<div id="project-container">
+<div id="main-greeting">
+    <p>Current and Past Projects</p>
+</div>
+
+<div id="about-me">
+
     <h1>
-        Projects
+        My Computer Science Background
     </h1>
-    <div id="patient-project">
-        <h3>
-            Patient Report Data Natural Language Processing
-        </h3>
         <p>
-            Transplant Kidney patients that received transthoracic echocardiograms... SAMPLE IMAGE
+            Throughout my years of high school and college, I began learning various programming languages,
+            concepts, and applications, beginning with self-teaching myself Python in 9th-grade during COVID.
         </p>
+
+    <hr>
+</div>
+
+<div id="project-container">
+    <div id="patient-project">
+        <h2>
+            Patient Report Data Natural Language Processing
+        </h2>
+        <p>
+            Penn Medicine thousands of transplant kidney patient data concerning transthoracic echocardiograms.
+            The data is arranged into written reports, which are difficult to extract meaningful information from.
+            Through natural language processing, knowledge extractions converts these reports into categorical and 
+            numerical variables to conduct meaningful statistical analyses.
+        </p>
+        <br>
+        <p>
+            Languages, Skills, & Frameworks Involved:
+        </p>
+        <ul>
+            <li>Natural Language Processing/Machine Learning</li>
+            <li>Python</li>
+            <li>Meta Llama</li>
+            <li>Penn High Performance Computing</li>
+        </ul>
     </div>
 
     <div id="frc-project">
-        <h3>
+        <h2>
             FRC Robot Object Detection & Trajectory Generation
-        </h3>
+        </h2>
         <p>
-            Uses HSV Color Filtering to detect Game Pieces on the field. Utilizes Fisheye Lens for 180 degrees
-            of FOV to see up to and next to the robot. Robot and field relative positions of the game Piece
-            are calculated using the trigonometry and the robot's current 2D position , which is used to 
-            determine the trajectory and so the robot drives.
+            During the FRC Crescendo Season, orange, hollow discs on the ground called "notes" were used
+            to score points. In order to improve intake of the robot during autonomous period (no driver/operator)
+            allowed, object detection and trajectory generation were used in conjunction to correctly intake 
+            game pieces. Rather than relying on computationally heavy computer vision technology, I developed 
+            a light weight model  that uses HSV (Hue, Saturation, Value) Color Filtering. However, the USB Camera 
+            had a very limited FOV and could not see notes in close vicinity. Using a fisheye lens with 180 degrees 
+            of FOV, detection of the note was converted to a field relative position using trigonometry and the robot's
+            2D position.
             INCLUDE VIDEO HERE
         </p>
+
+        <br>
+        <p>
+            Languages, Skills, & Frameworks Involved:
+        </p>
+        <ul>
+            <li>NetworkTables</li>
+            <li>Python</li>
+            <li>OpenCV</li>
+            <li>Bilinear Interpolation</li>
+            <li>RaspberryPi Processor Deployment</li>
+        </ul>
     </div>
 
     <div id="seekr-project">
-        <h3>UNC Bioinformatics Sequence Tool SEEKR </h3>
+        <h2>UNC Bioinformatics Sequence Tool SEEKR </h2>
         <p>
-            Combining LLMs with Markov Chains to determine next seq
-            and if it is part of next model
+            During the first phase of the project, I worked to improve visualization features of the SEEKR
+            tool for non-linear nucleotide sequence comparison. The package includes 100+ statistical 
+            distributions that can  be used for similarity comparison.
+            During the second phase, I worked on incorporating embeddings from transformers/encoders 
+            into hidden markov models.
         </p>
+
+        <br>
+        <p>
+            Languages, Skills, & Frameworks Involved:
+        </p>
+        <ul>
+            <li>Python</li>
+            <li>Markov Chains</li>
+            <li>Transformers</li>
+        </ul>
     </div>
 
     <div id="afib-project">
-        <h3>
-            A-FIB Detector App
-        </h3>
-        <a href="afib/templates/index-base.html"> <button>Click me!</button> </a>
-    
-        <h3>
-            This website:
-        </h3>
+        <h2>
+            A-FIB Research and A-FIB Detector App
+        </h2>
         <p>
-            - Skills: HTML, CSS, Frontend Formatting and Animations
+            I was the primary Python programmer who coded 14 machine learning classifiers using 18 predictors for 
+            detection of atrial fibrillation (A-FIB), a heart condition that causes irregular heartbeats and affects 
+            nearly 500,000 Americans.  Through ML, I achieved accuracies above 95%. There was extensive investigation into the most 
+            accurate classifiers with respect to various features/estimators. The incorporation
+            of a previously financial estimator, volatility, was also explored.
+            <br><br>
+            Later on, I developed a local web app to combine a machine learning classifier with heartrate data 
+            from a smartwatch, such as an Apple Watch, to determine if there were preliminary signs of atrial 
+            fibrillation for free. Currently, the local web app's backend (Python/ML processing) has not been 
+            added to the model.
         </p>
+        <a href="afib/templates/index-base.html"> <button>Click me!</button> </a>
+        <br>
+        <p>
+            Languages, Skills, & Frameworks Involved:
+        </p>
+        <ul>
+            <li>Python</li>
+            <li>SKLearn</li>
+            <li>Processing electrocardiogram wave data</li>
+            <li>Developing Entropy Estimators</li>
+            <li>Tree-based Classifiers - decision trees, boosting, etc.</li>
+            <li>Support Vector Classifiers & Machines</li>
+            <li>LDA, QDA, Logistic Regression</li>
+        </ul>
+
+    </div>
+
+    <div id="website">
+        <h2>
+            My Personal Website and Portfolio
+        </h2>
+        <p>
+            I self-taught myself HTML and CSS from scratch. I implemented various positioning models, 
+            animations, and stylistic features. Through this website, I hope to provide a window for 
+            others to see my interests, hobbies, and my passion for photography.
+        </p>
+        <br>
+        <p>
+            Languages, Skills, & Frameworks Involved:
+        </p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Frontend Web Development</li>
+        </ul>
+
     </div>
 </div>
 
@@ -120,7 +218,7 @@
 
     <br>
     <p>
-        Luke N © 2025
+        Luke N © 2025. All rights reserved.
     </p>
     <br>
     <p>
